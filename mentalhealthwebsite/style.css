@@ -454,10 +454,146 @@ footer{
     border: solid 1px #000000;
 }
 
+/* ########################################### */
+/*            homepage.html                    */
+/* ########################################### */
 
 
 
+.homepage-blurb h1{
+    font-size: 50px;
+
+}
+
+.homepage-blurb p{
+    font-size: 30px;
+    margin-right: 500px;
+}
+
+.homepage-blurb img{
+    float: right;
+}
+
+/* ########################################### */
+/*            aboutus.html                     */
+/* ########################################### */
 
 
+.aboutus h1{
+    font-size: 50px;
+    text-align: center;
+}
 
+.aboutus p{
+    font-size: 30px;
+    margin: 50px;
+    text-indent: 80px;
+}
+
+.aboutus img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+/* ########################################### */
+/*            help.html                        */
+/* ########################################### */
+
+
+.disclaimer h1{
+    font-size: 30px;
+    color: red;
+}
+
+.depression h1{
+    font-size: 50px;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.depression p{
+    font-size: 30px;
+    margin-top: -1px;
+}
+
+.depression b{
+    font-size: 30px;
+}
+.depression ul{
+    font-size: 30px;
+    margin-top: -1px;
+}
+
+.bipolar h1{
+    font-size: 50px;
+    cursor: pointer;
+    color: blueviolet;
+
+}
+
+.bipolar p{
+    font-size: 30px;
+    margin-top: -1px;
+}
+
+.bipolar b{
+    font-size: 30px;
+}
+.bipolar ul{
+    font-size: 30px;
+    margin-top: -30px;
+}
+
+.anxiety h1{
+    font-size: 50px;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.anxiety p{
+    font-size: 30px;
+    margin-top: -1px;
+}
+
+.anxiety b{
+    font-size: 30px;
+}
+
+.anxiety ul{
+    font-size: 30px;
+    margin-top: -1px;
+}
+
+.eatingdisorder h1{
+    font-size: 50px;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.eatingdisorder p{
+    font-size: 30px;
+    margin-top: -1px;
+}
+
+.eatingdisorder b{
+    font-size: 30px;
+}
+
+.eatingdisorder ul{
+    font-size: 30px;
+    margin-top: -30px;
+}
+
+.sources h1{
+    font-size: 50px;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.sources a{
+    font-size: 30px;
+    margin-top: -1px;
+}
 

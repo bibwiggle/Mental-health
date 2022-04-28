@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script>
+    $(function(){
+        $("#visible").click(function(){
+            $("#invisible").toggleClass("show");
+        });
+    });
+    $(function(){
+        $("#visible2").click(function(){
+            $("#invisible2").toggleClass("show");
+        });
+    });
+    $(function(){
+        $("#visible3").click(function(){
+            $("#invisible3").toggleClass("show");
+        });
+    });
+    $(function(){
+        $("#visible4").click(function(){
+            $("#invisible4").toggleClass("show");
+        });
+    });
+    $(function(){
+        $("#visible5").click(function(){
+            $("#invisible5").toggleClass("show");
+        });
+    });
+</script>
+<style>
+    .hide{display: none;}
+    .show{display: block;}
+</style>
+</head>
+<body>
+    <header>
+        <!--NavBar Section-->
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation">
+                <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="aboutus.html">About Us</a></li>
+                    <li class="nav-item"><a href="forums.html">Forums</a></li>
+                    <li class="nav-item"><a href="posts.html">Posts</a></li>
+                    <li class="nav-item"><a href="detail.html">Detail</a></li>
+                    <li class="nav-item"><a href="help.html">Need Some Help?</a></li>
+                    <li class="nav-item"><a href="homepage.html">Homepage</a></li>
+                </ul>
+            </nav>
+            <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
+            <div class="brand">Get REAL Mental</div>
+        </div>
+         <!--SearchBox Section-->
+        <div class="search-box">
+            <div>
+                <select name="" id="">
+                    <option value="Everything">Everything</option>
+                    <option value="Titles">Titles</option>
+                    <option value="Descriptions">Descriptions</option>
+                </select>
+                <input type="text" name="q" placeholder="search ...">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+            <div class = "disclaimer">
+            <h1>
+                <b>Disclaimer:</b> The content on this site has been compiled through extensive student research from verified and trusted sources. This site is intended for informational and educational purposes only, it does not substitute professional medical advice, diagnosis, treatment or consultations with a healthcare professional. We hope this site provides helpful information related to mental health. If you believe you or someone you know is struggling with mental illness please seek out help from a medical professional. 
+            </h1>
+            </div>
+
+            <div class = "depression">
+            <h1 id="visible">
+                Depression
+            </h1>
+            <div id="invisible" class="hide">
+                <b>Define / Intro / Overview:</b> 
+                <p>Clinical Depression, also known as major depressive disorder is a mood disorder that causes persistent feelings of sadness, fatigue, and loss of motivation and of interest in enjoyable activities. Depression can occur as the result of a traumatic event or it can occur almost “out of nowhere” as a result of changes in the brain chemistry and hormones. People struggling with depression typically have lower levels of Dopamine, Norepinephrine, and Serotonin. 
+            </p>
+           
+                <b>Common Misconceptions:</b>
+                <p>
+                “Depression isn’t a real illness, you’re just sad” - Depression is different from just being sad. Sadness is a normal part of the human experience! One of the biggest differentiators between feeling sad and suffering from depression is being able to identify the cause of your emotions. When you feel sad you usually have an idea of what’s making you sad like a break up, a bad grade, or just a bad day. People suffering with depression often can’t seem to pinpoint or find a reason as to why they are sad. Their lives may appear normal or “good” yet they still struggle with extreme feelings of hopelessness and despair that interfere with their day to day lives. 
+            </p>
+            <p>
+                “Depression doesn’t go away and I’m the only person who feels this way” - One of the biggest lies a depressed brain will tell you is that there is no hope or way out of your depression. That is simply not true! There are a multitude of treatment options for depression. While it is technically not a curable illness, most people often experience it in waves throughout their lifetime and with effective treatment techniques are able to keep their symptoms at bay or dormant for long periods of time. 
+            </p>
+            <p>
+                “Medication is the only option, it will change your personality and you’ll be on it forever” - Most medications act as a stepping stone for those struggling with depression. Doctors will prescribe medication for a certain period of time in order to correct the brain’s chemistry. During this time as some of the symptoms of depression ease up it becomes easier for patients to begin incorporating other treatment techniques such as therapy. Eventually reaching a place where they feel stable and well enough to continue on without medication.  
+            </p>
+                <b><a href="https://screening.mhanational.org/screening-tools/depression/">Signs / Symptoms / Screening:</a></b>
+
+                <ul>
+                <li>Feelings of hopelessness / emptiness / despair </li>
+                <li>Loss of interest in enjoyable activities</li>
+                <li>Low energy</li>
+                <li>Sleep disturbances (insomnia or sleeping all the time)</li>
+                <li>Changes in appetite (loss of appetite or increased cravings) </li>
+                <li>Trouble thinking, concentrating and making rational decisions</li>
+                <li>Extreme frustration over trivial matters </li>
+                <li>Avoiding social interactions </li>
+                <li>Suicidal thoughts or ideations  </li>
+                <li>Physical pain and body aches </li>
+                </ul>
+                
+                <b>Treatment Options: </b>
+                <p>
+                There are many different options when seeking treatment for depression and oftentimes they go hand in hand. 
+                </p>
+                <p>
+                Medication: Medications may be prescribed for a certain period of time at varying doses depending on the severity of symptoms. Some of the most common kinds of medications for treating depression include SSRIs, Antidepressants, Anxiolytic, and Antipsychotic.  
+                </p>
+                <p>
+                Therapy: Many people may also seek out therapy in addition to or instead of using medications. As the world of therapy and mental health has expanded, you can now access therapists online via messaging, video conferencing or the traditional way, in person. The most common types of therapy for treating depression include Cognitive Behavioral Therapy, Dialectical Behavior Therapy, Psychotherapy and Behavioral Therapy.  
+                </p>
+                <p>
+                Alternative / Holistic Medicine: There is an increasing number of studies showing the importance of diet and exercise when treating and managing the symptoms of depression. There are also certain supplements that have been shown to help with depression in some cases, speak with a doctor before incorporating any supplements to ensure they will not interfere with any other medication you may be taking. Some people also turn to other forms of alternative medicine such as acupuncture, reiki, and electromagnetic therapy to treat depression. There are limited studies available on this type of treatment for depression however certain case studies have shown it to be quite effective.
+                </p>
+                <p>
+                Residential Treatment: In severe cases, usually when a patient is suffering from suicidal thoughts or thoughts of harming themselves or others, a doctor may suggest residential treatment. There are a variety of differences in patient programs with varying lengths to help support those suffering from depression when it has taken control over their life. 
+                </p>
+                <b>Links/Resources:  </b>
+                <p>
+                <a href="https://www.cerealfordinner.org/resources-index/">Cereal for Dinner</a> is a down to earth organization dedicated to helping people live with depression. Their site offers a wealth of resources, activities, and care ideas that are all specifically designed to help those struggling with depression. One of the best parts about this site is that the creators understand how hard it can be to find the motivation to do anything at all when you are depressed. Therefore the majority of their suggested activities offer different levels of effort depending on how motivated a person may feel. Making it much easier to celebrate small wins!
+                </p>
+                <p>
+               The <a href="http://familyaware.org/DWA/">Depression Wellness Analyzer</a> offers a simple, effective, and free way to track your progress throughout treatment for depression. This site offers simple and quick daily check in prompts and questions. As well as additional optional weekly and journaling prompts if patients are willing to spend a bit more time recording their symptoms. The site tracks and analyzes your entries over time and provides a graph showcasing your progress. Tools like this can be really helpful for noticing small improvements when struggling with depression and remaining motivated to keep going. 
+                </p>
+                <b>Podcasts:</b>
+                <p>
+                The Hilarious World of Depression,
+                Feeling Good,
+                The Depression Files 
+                </p>
+                <b>Instagram:</b>
+                <p>
+                @theofficialsadghostclub
+                @realdepressionproject 
+                </p>
+                <b>Hotline: 1-844-863-9314</b>
+            </div>
+            </div>
+
+            <div class = "bipolar">
+            <h1 id="visible2">
+                Bipolar
+            </h1>
+            <div id="invisible2" class="hide">
+                <b>Define / Intro / Overview:</b> 
+                <p>Bipolar disorder is a mental health condition characterized by extreme mood swings over an extended period of time. Patients may experience episodes of mania, hypomania, and depression. Hypomania and mania symptoms are quite similar, with hypomania being less severe and usually shorter. In order for it to be considered bipolar disorder these episodes must last more than 2 weeks and can continue on anywhere from a month to multiple months. Depending on the severity and length of episodes you may be diagnosed with Bipolar I which means you have experienced a manic episode or Bipolar II which means you have only experienced hypomania. Bipolar disorder is a lifelong condition that usually requires medication however it is very common and can be manageable with an effective treatment plan. 
+            </p>
+                <b>Common Misconceptions:</b> 
+                <p>“Bipolar Disorder is just mood swings which everybody has' ' - Bipolar disorder is the result of chemical imbalances in the brain. The highs and lows are very different from typical mood swings and last much longer. Mood swings can occur on an hourly basis while symptoms of Bipolar episodes must be tracked over longer periods of time. The highs and lows of Bipolar are also much more severe than typical mood swings and can lead to poor decision making with drastic impacts or interference with everyday life. 
+            </p>
+            <p>
+                “Bipolar Disorder can be cured with diet and exercise” - Bipolar disorder is a lifelong condition and the effects of manic and depressive episodes can have severe implications on a person’s day to day life. It’s important to find a medication that works for you when seeking treatment in order to effectively manage symptoms. 
+            </p>
+            <p>
+                “People with bipolar disorder are always either manic or depressed” - People with bipolar disorder can experience long periods of a balanced mood, this is known as euthymia. They can also suffer from “mixed episodes” in which symptoms of mania and depression occur at the same time. 
+            </p>
+            <b><a href="https://screening.mhanational.org/screening-tools/bipolar/">Signs / Symptoms / Screening:</a></b> 
+            <p></p>
+            <p>Hypomania / Mania </p>
+                <ul>
+                <li>Abnormally upbeat or wired </li>
+                <li>High energy even with little sleep</li>
+                <li>Unusual talkativeness </li>
+                <li>Feelings of extreme confidence and euphoria</li>
+                <li>Poor decision making</li>
+                <li>Taking unusual risks</li>
+                <li>Distractibility</li>
+                <li>Decrease in appetite</li>
+                </ul>
+            <p>Depression</p>
+                <ul>
+                <li>Fatigue and loss of energy</li>
+                <li>Changes in appetite</li>
+                <li>Insomnia or sleeping too much</li>
+                <li>Disinterest in usually enjoyable activities</li>
+                <li>Feelings of worthlessness and guilt</li>
+                <li>Indecisive and unable to concentrate</li>
+                <li>Feelings of hopelessness and despair </li>
+                </ul>
+                <b>Treatment Options:</b> 
+                <p>Treatment for Bipolar disorder does require the use of medication to help stabilize a person and reduce risks of harm. However, there are a variety of additional treatment options that can be used in addition to medication to make life easier.
+            </p>
+            <p>
+                Medication: Depending on the severity of your Bipolar symptoms there are a number of different medications that may be prescribed independently or cohesively in order to treat your symptoms. The most common medications for treating Bipolar disorder include mood stabilizers, antipsychotics, antidepressants, and anti-anxiety medications. Your doctor may change your medications based on whether you are suffering from manic or depressive episodes.
+            </p>
+            <p>
+                Therapy: There are many different individual and community based therapies available for those struggling with Bipolar disorder. While medication is important, therapy can be considered equally as important for learning how to manage the implications of living with Bipolar in the long run. Common types of individual therapy include interpersonal and social rhythm therapy, cognitive behavioral therapy, and psycho education. A counselor may also suggest Bipolar support groups or family-focused therapy in order to build a strong support network.
+            </p>
+            <p>
+                Alternative / Holistic Treatments: Diet and exercise as well as establishing healthy routines have all been proven to be helpful in managing the symptoms of Bipolar disorder. When working with a therapist you can explore these options and build a routine that helps manage symptoms in addition to medication. In certain cases doctors may also suggest electroconvulsive therapy or transcranial magnetic stimulation if you are not responding to or unable to take certain kinds of medications. 
+            </p>
+            <p>
+                Residential Treatments: During severe episodes of mania or depression a patient may join a residential program in order to monitor their symptoms and ensure they do not make any harmful decisions while learning how to manage their symptoms or waiting for the episode to subside. There are also day treatment programs in which patients can receive additional support if they are struggling with an episode yet still mostly stable. These types of programs also often offer support groups where patients can share advice and stories with people suffering from the same symptoms. 
+            </p>
+            <b>Links/Resources: </b> 
+                <p>The <a href="https://www.cci.health.wa.gov.au/Resources/Looking-After-Yourself/Bipolar">Center for Clinical Interventions</a> has compiled an extensive amount of information and interactive resources for those struggling with Bipolar Disorder. The site contains a workbook with strategies for dealing with the different aspects and symptoms of mania and depression. It also provides general information sheets for patients, friends, and family members. As well as a variety of worksheets that cover symptom monitoring, self reflection, setting routines and goals, and more. All of these resources are completely free to download and use. 
+            </p>
+            <p>The <a href="https://www.bphope.com">Bphope</a> is an entire website dedicated to addressing all the different aspects of living with bipolar disorder including self care and treatment, relationships, work and more. It also has a section dedicated just to children with bipolar disorder. The website is filled with articles, newsletters, pop culture connections, free downloads and more. This site does an excellent job of normalizing and destigmatizing living with Bipolar disorder and can also be a great place to find community. 
+            </p>
+            <p>
+                Hotline: (800) 273-TALK (8255)
+            </p>
+            <b>Podcasts:</b>
+            <p>
+                The Bipolar Battle, Waking Up Bipolar, Dancing With Bipolar 
+            </p>
+            <b>Instagram:</b>
+            <p>
+                @so_bipolar @dbsalliance 
+
+            </p>
+            </div>
+            </div>
+            <div class = "anxiety">
+            <h1 id="visible3">
+                Anxiety
+            </h1>
+            <div id="invisible3" class="hide">
+                <b>Define / Intro / Overview:</b> 
+                <p>Anxiety disorders are characterized by consistent feelings of nervousness, panic, and fear, typically over irrational or trivial matters. These feelings of worry become so severe that they interfere with a person’s ability to go about their daily life. Constant anxiety can lead to a number of physical health problems, as chronic stress is very hard on the body. Anxiety disorders can occur independently or as a result of other mental illnesses or traumatic experiences. There are many different kinds of anxiety disorders that range in severity and symptoms, all are characterized by a constant state of worry. Some of the most common types of anxiety disorders include Generalized Anxiety Disorder, Social Anxiety Disorder, Panic Disorder and Phobias. 
+            </p>
+            <b>Common Misconceptions:</b> 
+                <p>“Anxiety isn’t a real illness and it will go away on its own” - Anxiety is more than just feeling nervous. It is a legitimate diagnosable psychiatric condition that can interfere with your day to day life. Validating this can be helpful if feelings of shame arise when beginning to seek treatment. Since anxiety is a legitimate medical condition it does require treatment in order for the symptoms to subside. Anxiety is a very common and treatable condition! Anxiety disorders are the most common disorder amongst American adults.
+            </p>
+            <p>
+                “Anxiety is an obvious disorder” - Many people suffering from severe anxiety will find ways to make their symptoms invisible to the outward public. They may appear extremely confident or stress free when in reality anxiety is taking a dueling toll on their physical and mental health. 
+            </p>
+            <p>
+                “Medication is the only option for treating anxiety” - While medication can be an important and useful tool in treating anxiety, there are a variety of other treatment options available that can help manage the symptoms of anxiety and uncover the root causes. Many people living with anxiety experience extended periods of time where anxiety is manageable and medication is not needed. 
+            </p>
+            <b><a href="https://screening.mhanational.org/screening-tools/anxiety/">Signs / Symptoms / Screening:</a></b> 
+                <ul>
+                <li>Feeling nervous and or restless </li>
+                <li>Trouble concentrating on anything other than what’s making you anxious</li>
+                <li>Gastrointestinal problems </li>
+                <li>Frequent sweating</li>
+                <li>Frequent shaking or trembling</li>
+                <li>Body aches from tension or clenching muscles</li>
+                <li>Rapid or irregular breathing</li>
+                <li>Trouble sleeping</li>
+                <li>Sense of impending danger or doom</li>
+                <li>Avoiding anything that may trigger anxiety, no matter how irrational</li>
+                </ul>
+                <b>Treatment Options:</b> 
+                <p>When seeking treatment for anxiety it’s important to understand which type of Anxiety Disorder you suffer from and how severe your symptoms are in order to find a treatment plan that’s best for you.
+            </p>
+            <p>
+                Medication: When seeking medication for treatment of anxiety there are short term and long term options. Long term options include antidepressants such as SSRIs, SNRIs and MAOIs. These medications are taken over a longer period of time and work to gradually reduce the symptoms of anxiety. Short term options include anti anxiety medications such as benzodiazepines. These medications work to provide quick short term relief from things like an anxiety attack and should not be taken long term. 
+            </p>
+            <p>
+                Therapy: Psychotherapy is often used when treating anxiety to help patients understand the root causes of their anxiety and build skill sets to cope with the symptoms of their anxiety. Therapy can also be used to rewire some of the irrational and negative anxiety induced through cycles. The most common types of therapy used for treating anxiety disorders is Cognitive Behavioral Therapy and Exposure Therapy. 
+            </p>
+            <p>
+                Alternative / Holistic Medicine: In addition to therapy and medication incorporating holistic medicine techniques can also help manage the symptoms of anxiety. Common holistic treatments for anxiety include exercise, yoga, and meditation. A doctor may also suggest changes in diet such as limiting caffeine or sugar intake to help with anxiety symptoms. Herbal supplements and aromatherapy have also proven to be helpful in treating anxiety disorders however when incorporating supplements it is important to speak with a licensed professional to ensure they will not interact with any other medications you may be taking. 
+            </p>
+            <b>Links / Resources:</b> 
+                <p>The<a href="https://adaa.org/supportgroups"> Anxiety & Depression Association of America</a> offers a variety of support groups for those struggling with anxiety. You can filter to find groups in your area or, since the Covid 19 pandemic, the majority of their support groups are now held virtually. This can actually be extremely beneficial in making meetings more accessible. For those who may also be struggling with social anxiety specifically the option to have your camera off and just listen in can be much less overwhelming than trying to get yourself to go to an in person meeting.  
+
+            </p>
+                <p><a href="https://www.anxietycanada.com/free-downloadable-pdf-resources/"> Anxiety Canada</a> has compiled a list of numerous free pdf documents to help manage living with anxiety. The documents include strategies for managing symptoms, identifying symptoms and causes, worksheet exercises, self help relaxation techniques and more! The site also provides resources for friends and family members that may know somebody suffering from anxiety. 
+            </p>
+            <p>
+                Hotline: 1-800-950-6264 
+            </p>
+            <b>Podcasts:</b>
+            <p>
+                The Anxiety Guy, The Overwhelmed Brain, The Anxiety Coaches 
+
+            </p>
+            <b>Instagram:</b>
+            <p>
+                @anxietysupport @anxietyhelpandhope
+            </p>
+            </div>
+            </div>
+            <div class = "eatingdisorder">
+            <h1 id="visible4">
+                Eating Disorders
+            </h1>
+            <div id="invisible4" class="hide">
+                <b>Define / Intro / Overview:</b> 
+                <p>Eating disorders are a mental health condition characterized by severe disturbances in eating patterns and behaviors. As well as an extreme preoccupation and obsessive thoughts about food, body weight, and image. These thoughts and behaviors interfere with daily life and in extreme cases can require hospitalization or become fatal. There are many different types of eating disorders that come with their own set of symptoms. Some of the most common include Anorexia, Bulimia, Orthorexia, and Binge Eating Disorder. Anorexia and Orthorexia tend to include more symptoms related to restricting food intake while Bulimia and Binge Eating Disorder include more symptoms related to overeating and purging.
+            </p>
+            <b>Common Misconceptions:</b> 
+                <p>“It’s obvious when people have an eating disorder” - Eating disorders are typically represented in the media as characterized by being extremely thin or underweight. This is simply unrealistic and people struggling with an eating disorder can come in all shapes and sizes. Victims of eating disorders often experience frequent changes in weight. In certain circumstances a person may be severely restricting their food intake however not experiencing any changes in weight as their body enters starvation mode. Just because a person appears a “healthy weight” does not mean they have a healthy relationship with food and their body. 
+            </p>
+            <p>
+                “Eating disorders aren’t that serious, just eat” - Eating disorders are a legitimate mental illness. Anorexia has the highest mortality rate of any psychiatric disorder. Obviously, eating disorders are related to food however their root causes go much deeper than just an obsession with food or appearance. Eating disorders typically stem from traumatic events, a constant need for control, or extreme pressure. Eating disorders are not a choice and do not simply go away, they do require some type of medical, therapeutic, or psychiatric intervention. 
+            </p>
+            <p>
+                “It’s only an eating disorder if you’re starving yourself or purging” - While anorexia and bulimia are the most commonly understood and represented eating disorders, there are a wide range of eating disorders with varying symptoms that can be just as serious and harmful. Since these types of eating disorders are less represented and recognized it is less likely for those suffering to receive proper treatment, making them even more harmful. 
+            </p>
+            <b><a href="https://screening.mhanational.org/screening-tools/eating-disorder/">Signs / Symptoms / Screening:</a></b> 
+            <p>Eating disorder symptoms may vary based on specific diagnoses. It is not uncommon for patients to struggle with symptoms from multiple kinds of symptoms outside of their original diagnosis. 
+            </p>
+            <ul>
+                <li>Binging on large amounts of food </li>
+                <li>Starving or refusing to eat</li>
+                <li>Extreme restriction when eating </li>
+                <li>Only eating certain foods </li>
+                <li>Purging after eating</li>
+                <li>Avoiding social situations where food is involved</li>
+                <li>Frequently checking weight or other body measurements </li>
+                <li>Low self esteem</li>
+                <li>Distorted sense of self and appearance </li>
+                <li>Excessive exercise</li>
+                <li>Extreme desire to be in control of food intake </li>
+                <li>Loss of control around food </li>
+                <li>Low energy </li>
+                <li>Aches and pains from nutrient deficiencies </li>
+                <li>Loss of hair or change in skin color </li>
+                <li>Extreme changes in weight and appearance</li>
+                <li>Tooth decay from frequent vomiting</li>
+                <li>Laxative abuse</li>
+                <li>Frequently using the bathroom after eating</li>
+                </ul>
+                <b>Treatment Options:</b> 
+                <p>A combination of psychotherapy and alternative treatments such as working with a dietitian or nutritionist are the most common and successful options for treating eating disorders. The severity of symptoms can fluctuate throughout a person’s lifetime and therefore the level of treatment required may be adjusted. Even if symptoms subside it is important to keep up with some sort of ongoing treatment or check in to monitor symptoms and prevent a relapse. 
+            </p>
+            <p>
+                Medication: Medication is not typically the primary method when treating eating disorders however it can be helpful in addressing coexisting mental health issues such as depression or anxiety related to food. No medications have been approved by the FDA for treating Anorexia however some doctors may prescribe antidepressants to help with coexisting symptoms. Medications have been proven to be more helpful in treating Bulimia and Binge eating disorder. These medications include SSRIs including Prozac and antiseizure medications such as Topiramate. 
+            </p>
+            <p>
+                Therapy: Therapy is the most common treatment for eating disorders. Cognitive behavioral therapy is commonly used when working with individual patients in order to help them determine the root cause of their eating disorder and learn to break negative thought cycles and behaviors. Family-based and group therapy is also often used to build a strong support network and decrease feelings of isolation. 
+            </p>
+            <p>
+                Holistic / Alternative Medicine: In addition to therapy and medication those suffering from an eating disorder may also seek help from a nutritionist or dietitian to work towards repairing their relationship with food and exercise. Practices such as yoga, meditation, acupuncture and journaling have also shown to be helpful and effective in the treatment of eating disorders. 
+            </p>
+            <p>
+                Residential Treatment: In severe cases, those suffering from an eating disorder may require residential treatment. Eating disorders can become fatal if not addressed. Lack of proper nutrition can lead to serious health issues resulting in hospitalization. Residential treatment centers can be helpful in monitoring a patients food intake and ensuring they are receiving proper nutrition while also working through the psychiatric symptoms of eating disorders. 
+            </p>
+            <b>
+                Links / Resources: 
+            </b>
+            <p>
+                <a href="https://www.eatingdisorderhope.com/recovery">Eating Disorder Hope</a>
+                 is an entire website dedicated to educating and supporting those struggling with an eating disorder. The website provides general information and extensive information about finding treatment options. It also offers self help tips, support groups and a blog. The blog is a great source of recovery inspiration and builds a sense of relatability for those who may be struggling with an eating disorder. 
+            </p>
+            <p>
+                <a href="https://www.onlinemswprograms.com/resources/resources-eating-disorder-recovery/"> MSW</a> has compiled a list of 70 free resources covering many different aspects of living with an eating disorder. It includes information to help understand eating disorders, look out for symptoms, and support friends and family members who are struggling. It also offers assistance in how to determine and find which treatment option may be best for you, including low cost treatment options. Additionally it offers support groups and access to emergency hotlines as well as books, apps, and podcasts for coping with an eating disorder. 
+            </p>
+            <p>
+                Hotline: 1-800-931-2237
+            </p>
+            <b>Podcasts:</b>
+            <p>
+                ED Matters, Recovery Warrior, Butterfly : Let’s Talk 
+
+
+            </p>
+            <b>Instagram:</b>
+            <p>
+                @bodyimage_therapist @recovrywarriors 
+
+            </p>
+            </div>
+            </div>
+            <div class = "sources">
+            <h1 id="visible5">
+                Inspiration / Sources
+            </h1>
+            <div id="invisible5" class="hide">
+                <p><a href="https://screening.mhanational.org/content/depression-curable/">https://screening.mhanational.org/content/depression-curable/</a>
+                </p>
+                <p>
+                <a href="https://www.mayoclinic.org/diseases-conditions/depression/symptoms-causes/syc-20356007">https://www.mayoclinic.org/diseases-conditions/depression/symptoms-causes/syc-20356007</a>
+                <p>
+                <a href="https://www.verywellmind.com/the-chemistry-of-depression-1065137">https://www.verywellmind.com/the-chemistry-of-depression-1065137</a>
+                <p>
+                <a href="https://www.mayoclinic.org/diseases-conditions/depression/diagnosis-treatment/drc-20356013">https://www.mayoclinic.org/diseases-conditions/depression/diagnosis-treatment/drc-20356013</a>
+                <p>
+                <a href="https://www.mayoclinic.org/diseases-conditions/anxiety/diagnosis-treatment/drc-20350967">https://www.mayoclinic.org/diseases-conditions/anxiety/diagnosis-treatment/drc-20350967</a>
+                <p>
+                <a href="https://www.nimh.nih.gov/health/topics/anxiety-disorders#part_2225">https://www.nimh.nih.gov/health/topics/anxiety-disorders#part_2225</a>
+                <p>
+                <a href="https://www.therecoveryvillage.com/mental-health/anxiety/related/anxiety-myths/">https://www.therecoveryvillage.com/mental-health/anxiety/related/anxiety-myths/</a>
+                <p>
+                <a href="https://www.healthline.com/health/8-harmful-bipolar-disorder-myths-you-need-to-stop-believing#8.-Myth:-All-medications-for-bipolar-disorder-are-the-same.-">https://www.healthline.com/health/8-harmful-bipolar-disorder-myths-you-need-to-stop-believing#8.-Myth:-All-medications-for-bipolar-disorder-are-the-same.-</a>
+                <p>
+                <a href="https://www.mayoclinic.org/diseases-conditions/bipolar-disorder/diagnosis-treatment/drc-20355961">https://www.mayoclinic.org/diseases-conditions/bipolar-disorder/diagnosis-treatment/drc-20355961</a>
+                <p>
+                <a href="https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Eating-Disorders">https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Eating-Disorders</a>
+                <p>
+                <a href="https://www.healthline.com/nutrition/common-eating-disorders#other">https://www.healthline.com/nutrition/common-eating-disorders#other</a>
+                <p>
+                <a href="https://www.healthline.com/health/eating-disorders-alternative-treatment#lifestyle">https://www.healthline.com/health/eating-disorders-alternative-treatment#lifestyle</a>
+                <p>
+                <a href="https://www.mayoclinic.org/diseases-conditions/eating-disorders/in-depth/eating-disorder-treatment/art-20046234">https://www.mayoclinic.org/diseases-conditions/eating-disorders/in-depth/eating-disorder-treatment/art-20046234</a>
+                <p>
+                <a href="https://www.nimh.nih.gov/health/topics/eating-disorders">https://www.nimh.nih.gov/health/topics/eating-disorders</a>
+                <p>
+                <a href="https://www.eatingrecoverycenter.com/resources/eating-disorder-facts-myths">https://www.eatingrecoverycenter.com/resources/eating-disorder-facts-myths</a>
+                <p>
+                <a href="https://www.verywellmind.com/medications-used-to-treat-eating-disorders-4153046">https://www.verywellmind.com/medications-used-to-treat-eating-disorders-4153046</a>
+            </p>
+                </div>
+            </div>
+        
+    <footer>
+        <span>&copy;  GetREALMental | All Rights Reserved</span>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
